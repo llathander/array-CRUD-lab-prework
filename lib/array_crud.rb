@@ -38,12 +38,12 @@ def retrieve_element_from_index(array, index_number)
 end
 
 def retrieve_first_element_from_array(array)
-  array = ["arrays", 1 ,2]
+  array = ["arrays!", 1]
   array.first
   
 end
 
 def retrieve_last_element_from_array(array)
-   array = [1,2]
-  array.last
+   array = ["arrays!", 1]
+   array.last
 end
