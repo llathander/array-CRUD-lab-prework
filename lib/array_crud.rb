@@ -27,7 +27,7 @@ end
 
 def remove_element_from_start_of_array(array)
   array = ["wow", 1, 2]
-  element = array.unshift("wow")
+  array.shift
   
 end
 
